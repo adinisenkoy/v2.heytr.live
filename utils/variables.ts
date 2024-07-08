@@ -6,16 +6,16 @@ import { TbBrandCSharp, TbBrandNextjs } from 'react-icons/tb';
 
 export const projects: { name: string; description: string; iconURL: string; link: string; }[] = [
   {
-    name: 'Haberler',
-    description: 'It allows you to view local news via Discord.',
-    link: 'https://bit.ly/haberlerbot',
-    iconURL: 'https://cdn.discordapp.com/icons/1147505872625483819/a46ed5606785cf436c5c65c320de6cb7.png',
+    name: 'NEBE (Turkish)',
+    description: 'Türkiye\'deki Nöbetçi Eczaneleri gösteren site.',
+    link: 'https://eczaneler.works/',
+    iconURL: 'https://heyturkiye204.github.io/heyturkiye204/cdn/projects/nebe.jpg',
   },
   {
-    name: 'Raven',
-    description: 'It provides access to free projects and codes.',
-    link: 'https://discord.gg/altyapilar',
-    iconURL: 'https://cdn.discordapp.com/icons/1096085223881576549/659a570c79e73521fbebe5fb56dda08f.png',
+    name: 'Stu Bot (Turkish)',
+    description: 'Discord sunucunuzun Moderasyon işlerini karşılayan bot.',
+    link: 'https://bit.ly/stubotdavet2024',
+    iconURL: 'https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg',
   },
 ];
 
