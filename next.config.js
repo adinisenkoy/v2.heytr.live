@@ -6,6 +6,7 @@ const nextConfig = {
       { hostname: "cdn.discordapp.com" },
       { hostname: "i.hizliresim.com" },
       { hostname: "avatars.githubusercontent.com" },
+      { hostname: "heyturkiye204.github.io" },
     ],
   },
   eslint: {
