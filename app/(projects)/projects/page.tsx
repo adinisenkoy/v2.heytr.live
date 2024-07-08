@@ -28,7 +28,6 @@ export default function Projects() {
             <h2 className="text-5xl font-semibold">My Projects</h2>
             <p className="text-[#a7a7a7] sm:w-3/5 mt-1">On this page, you can see the projects that I have developed, which are actively ongoing or suspended.</p>
           </div>
-
           <motion.div
             initial="hidden"
             animate="visible"
@@ -36,27 +35,14 @@ export default function Projects() {
             className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-12">
             <motion.div variants={item}>
               <Project
-                imgUrl="https://i.hizliresim.com/pkfxiu2.png"
-                name="Haberler"
-                githubLink="https://github.com/haberlerbot"
-                websiteLink="https://haberlerbot.xyz"
-                description="Discord Turkey&apos;s first social media focused news platform
-Get access to news from your servers."
-                tags={["TypeScript", "MongoDB", "i18next"]}
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg"
+                name="NEBE (Turkish)"
+                githubLink="#"
+                websiteLink="https://eczaneler.works/"
+                description="Türkiye&apos;sdeki Nöbetçi Eczaneleri gösteren site."
+                tags={["HTML", "JavaScript", "NextJS"]}
               />
-            </motion.div>
-
-
-            <motion.div variants={item}>
-              <Project
-                imgUrl="https://i.hizliresim.com/c6iv9tc.png"
-                name="Raven"
-                githubLink="https://github.com/rravencode"
-                websiteLink="https://discord.com/invite/altyapilar"
-                description="Our code sharing community where people can get free support and access free codes."
-                tags={["Community", "Support", "Discord"]}
-              />
-            </motion.div>
+            </motion.div>            
           </motion.div>
         </motion.div>
         <Footer />
