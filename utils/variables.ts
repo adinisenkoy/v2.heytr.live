@@ -11,12 +11,6 @@ export const projects: { name: string; description: string; iconURL: string; lin
     link: 'https://eczaneler.works/',
     iconURL: 'https://heyturkiye204.github.io/heyturkiye204/cdn/projects/nebe.jpg',
   },
-  {
-    name: 'Stu Bot (Turkish)',
-    description: 'Discord sunucunuzun Moderasyon işlerini karşılayan bot.',
-    link: 'https://bit.ly/stubotdavet2024',
-    iconURL: 'https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg',
-  },
 ];
 
 export const githubUsername = 'romanbaba';
