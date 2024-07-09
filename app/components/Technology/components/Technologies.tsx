@@ -24,24 +24,12 @@ export default function Technologies() {
       <Technology name="Vercel" file="vercel" />
 
       <Technology name="TailwindCSS" file="tailwind" />
-
-      <Technology name="Bootstrap" file="bootstrap" />
-
-      <Technology name="Awesome" file="fontawesome" svg={false} />
-
-      <Technology name="React Icons" file="reacticons" />
-
+      
       <Technology name="Github" file="github" />
 
       <Technology name="Git" file="git" />
 
-      <Technology name="Pnpm" file="pnpm" />
-
       <Technology name="Framer" file="framer" />
-
-      <Technology name="Headless UI" file="headless-ui" />
-
-      <Technology name="Daisy UI" file="daisyui" />
     </>
   );
 }
