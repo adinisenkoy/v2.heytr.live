@@ -39,7 +39,7 @@ export default function Projects() {
                 imgUrl="https://upload.wikimedia.org/wikipedia/commons/c/c2/OOjs_UI_icon_camera-invert.svg"
                 name="Sivas Belediyesi Meraküm Kameraları (🇹🇷)"
                 githubLink="#"
-                websiteLink="https://haberlerbot.xyz"
+                websiteLink="https://merakum.live"
                 description="Meraküm Tepesi ve Şehir İçi Kameraları Gösteren Basit bir sitedir."
                 tags={["HTML", "JavaScript"]}
               />
