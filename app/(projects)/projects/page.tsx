@@ -36,27 +36,82 @@ export default function Projects() {
             className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-12">
             <motion.div variants={item}>
               <Project
-                imgUrl="https://i.hizliresim.com/pkfxiu2.png"
-                name="Haberler"
-                githubLink="https://github.com/haberlerbot"
+                imgUrl="https://upload.wikimedia.org/wikipedia/commons/c/c2/OOjs_UI_icon_camera-invert.svg"
+                name="Sivas Belediyesi Meraküm Kameraları (🇹🇷)"
+                githubLink="#"
                 websiteLink="https://haberlerbot.xyz"
-                description="Discord Turkey&apos;s first social media focused news platform
-Get access to news from your servers."
-                tags={["TypeScript", "MongoDB", "i18next"]}
+                description="Meraküm Tepesi ve Şehir İçi Kameraları Gösteren Basit bir sitedir."
+                tags={["HTML", "JavaScript"]}
               />
             </motion.div>
 
 
             <motion.div variants={item}>
               <Project
-                imgUrl="https://i.hizliresim.com/c6iv9tc.png"
-                name="Raven"
-                githubLink="https://github.com/rravencode"
-                websiteLink="https://discord.com/invite/altyapilar"
-                description="Our code sharing community where people can get free support and access free codes."
-                tags={["Community", "Support", "Discord"]}
+                imgUrl="https://upload.wikimedia.org/wikipedia/commons/d/d4/OOjs_UI_icon_message-rtl-progressive.svg"
+                name="HeyTR Mail Sistemi (Turkish)"
+                githubLink="#"
+                websiteLink="https://heytr.email"
+                description="3 harfli kısa e-posta oluşturma sistemi. (BAKIMDA)"
+                tags={["e-posta"]}
               />
             </motion.div>
+                  
+            <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/xrbot.jpg"
+                name="Xr Bot (Turkish)"
+                githubLink="#"
+                websiteLink="https://bit.ly/XrBotDavet"
+                description="Sunucunuzun Moderasyon, Ticket, Level sistemi gibi ihtiyaçları karşılayan bot."
+                tags={["JavaScript", "Module"]}
+              />
+            </motion.div>
+
+            <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg"
+                name="Stu Bot (Turkish)"
+                githubLink="#"
+                websiteLink="https://bit.ly/stubotdavet2024"
+                description="Sunucunuzun Moderasyon ihtiyaçlarını karşılayan bot."
+                tags={["JavaScript", "Module"]}
+              />
+            </motion.div>
+
+            <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/hmbot.jpg"
+                name="Hey Müzik Bot (Turkish)"
+                githubLink="#"
+                websiteLink="https://bit.ly/HMBotDavet"
+                description="Sunucunuzun Müzik ihtiyaçlarını karşılayan bot."
+                tags={["JavaScript", "Module"]}
+              />
+            </motion.div>
+
+              <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/mbot.jpg"
+                name="Mandalina Bot (Turkish)"
+                githubLink="#"
+                websiteLink="https://bit.ly/MandalinaBotDavet"
+                description="Sunucunuzun Çekiliş ihtiyaçlarını karşılayan bot."
+                tags={["JavaScript", "Module"]}
+              />
+            </motion.div>
+
+             <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/nebe.jpg"
+                name="Nöbetçi Eczaneler Bilgi Ekranı (Turkish)"
+                githubLink="#"
+                websiteLink="https://eczaneler.works/"
+                description="Türkiye deki Nöbetçi Eczaneleri gösteren site."
+                tags={["HTML", "JavaScript", "NextJS"]}
+              />
+            </motion.div>
+                  
           </motion.div>
         </motion.div>
         <Footer />
