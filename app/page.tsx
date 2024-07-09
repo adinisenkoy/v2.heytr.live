@@ -54,7 +54,7 @@ export default function Home() {
               <div className="flex justify-between items-start pt-2">
                 <div>
                   <div>
-                    <h2 className="text-2xl ml-1">{!isLoading && discordData?.discord_user.global_name}</h2>
+                    <h2 className="text-2xl ml-1"><b>Hey Türkiye</b></h2>
                     <span className="text-[#a7a7a7] ml-1">{!isLoading && `@${discordData?.discord_user.username}`}</span>
                   </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="w-96 lg:w-48 indicator flex justify-end">
                   {!isLoading && (
                     <>
-                      <Image src={`https://cdn.discordapp.com/avatars/${discordData?.discord_user.id}/${discordData?.discord_user.avatar}?size=1024`} alt="romanbaba" height={1024} width={1024} className="rounded-full lg:w-20 lg:h-20 h-34 w-96" />
+                      <Image src={`https://cdn.discordapp.com/avatars/${discordData?.discord_user.id}/${discordData?.discord_user.avatar}?size=1024`} alt="Hey Türkiye'nin Profil Fotoğrafı" height={1024} width={1024} className="rounded-full lg:w-20 lg:h-20 h-34 w-96" />
                       <div className={classNames({
                         "indicator-item indicator-bottom indicator-end transition-all duration-200 badge mb-2 mr-2": true,
                         "bg-[#747F8D]": discordData?.discord_status === "offline",
