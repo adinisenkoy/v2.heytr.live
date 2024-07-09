@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   themeColor: "#8B5CF6",
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  icons: "https://icons.binaryblazer.me/icons/star/star.svg",
+  icons: "https://assets.streamlinehq.com/image/private/w_68,h_68,ar_1/f_auto/v1/icons/all-icons/star-w1j72yhobtoofsqzecm16.png/star-3ryseu4vcrtnbmmiufevv.png?_a=DAJFJtWIZAAC",
   openGraph: {
-    images: "https://icons.binaryblazer.me/icons/star/star.svg",
+    images: "https://assets.streamlinehq.com/image/private/w_68,h_68,ar_1/f_auto/v1/icons/all-icons/star-w1j72yhobtoofsqzecm16.png/star-3ryseu4vcrtnbmmiufevv.png?_a=DAJFJtWIZAAC",
   },
 };
 
