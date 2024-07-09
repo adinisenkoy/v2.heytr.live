@@ -13,8 +13,8 @@ export const projects: { name: string; description: string; iconURL: string; lin
   },
 ];
 
-export const githubUsername = 'romanbaba';
-export const discordId = '341585045397438464';
+export const githubUsername = 'heyturkiye204';
+export const discordId = '718374283642011728';
 
 export const socialMediaAccounts: { name: string; link: string; iconURL: IconType }[] = [
   {
@@ -29,12 +29,12 @@ export const socialMediaAccounts: { name: string; link: string; iconURL: IconTyp
   },
   {
     name: 'Instagram',
-    link: 'https://www.instagram.com/romanbabba',
+    link: 'https://www.instagram.com/xrqu.live',
     iconURL: BsInstagram,
   },
   {
     name: 'X',
-    link: 'https://twitter.com/ewgsta',
+    link: 'https://twitter.com/HayatDrubunu',
     iconURL: BsTwitterX,
   },
 ];
