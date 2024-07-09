@@ -35,12 +35,27 @@ export default function Projects() {
             className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-12">
             <motion.div variants={item}>
               <Project
-                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg"
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/nebe.jpg"
                 name="NEBE (Turkish)"
                 githubLink="#"
                 websiteLink="https://eczaneler.works/"
-                description="Türkiye&apos;sdeki Nöbetçi Eczaneleri gösteren site."
+                description="Türkiye&apos;deki Nöbetçi Eczaneleri gösteren site."
                 tags={["HTML", "JavaScript", "NextJS"]}
+              />
+            </motion.div>
+            <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={container}
+            className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-12">
+            <motion.div variants={item}>
+              <Project
+                imgUrl="https://heyturkiye204.github.io/heyturkiye204/cdn/projects/stubot.jpg"
+                name="Stu Bot (Turkish)"
+                githubLink="#"
+                websiteLink="https://bit.ly/stubotdavet2024"
+                description="Discord sunucunuzun moderasyon ihtiyaçlarını karşılayan discord botu."
+                tags={["HTML", "JavaScript"]}
               />
             </motion.div>            
           </motion.div>
